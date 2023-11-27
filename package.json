@@ -1,3 +1,4 @@
+
 {
   "name": "js",
   "version": "1.0.0",
@@ -94,12 +95,20 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "eslint":"npx eslint main.js"
+    "eslint": "npx eslint ../js --rulesdir ./customeRule/"
   },
   "author": "",
   "license": "ISC",
-  "description": "",
   "devDependencies": {
     "eslint": "^8.54.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aman0505/eslint.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aman0505/eslint/issues"
+  },
+  "homepage": "https://github.com/aman0505/eslint#readme",
+  "description": ""
 }

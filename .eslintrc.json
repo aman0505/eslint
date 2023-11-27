@@ -11,11 +11,16 @@
         "es2021": true
     },
     "extends": "eslint:recommended",
-
+    
+        "parserOptions": {
+            "ecmaVersion": "latest",
+            "sourceType": "module"
+        },
     "rules": {
         // adding rules from eslint documentation 
         // link = https://eslint.org/docs/latest/rules/
         // 
+        "identifier":"warn",
         "consistent-return":["warn"],
         "indent": [
             "warn",

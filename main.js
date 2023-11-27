@@ -1,11 +1,12 @@
-// import finq from "./test"
-
+import finq from "./test"
 const fun=(x)=>{
     if(x>30){
+        console.log(window.location.href)
+        
         return true;
 
     }
-    // finq();
+    finq();
     return false;
 }
 const x=50;
