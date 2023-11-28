@@ -9,7 +9,7 @@ const fun=(x)=>{
         // main 3
     }
     finq();
-    return false;
+    return true;
 }
 const x=50;
 console.log(fun(x))
