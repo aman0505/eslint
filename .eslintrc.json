@@ -21,6 +21,7 @@
         // link = https://eslint.org/docs/latest/rules/
         // 
         "identifier":"warn",
+        "comments":["warn"],
         "consistent-return":["warn"],
         "indent": [
             "warn",

@@ -14,7 +14,7 @@ module.exports={
         return {
             CallExpression(node){
                 if(node.callee.name==="getpayment"){
-                    context.report({
+                    context. report({
                         node:node,
                         message:"getpayment is deprected: {{ identifier }}",
                         data:{

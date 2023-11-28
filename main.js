@@ -4,7 +4,9 @@ const fun=(x)=>{
         console.log(window.location.href)
         
         return true;
-
+        // this is main files  comments 
+        // main1
+        // main 3
     }
     finq();
     return false;
