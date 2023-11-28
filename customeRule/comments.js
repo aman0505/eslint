@@ -15,16 +15,16 @@ module.exports={
         const findcommetns=(node)=>{
             const comm=context.getSourceCode()
             var arrayofcomments=comm.getAllComments()
-            console.log(context.filename)
+            // console.log(context.filename)
             for(var i=0;i<arrayofcomments.length;i++){
                  if(arrayofcomments[i].value.trim()=="payment 1"){
         context.report({
-        node:node,
-     message:`please dont use "payment 1" comment {{identifier}}`,
-     data:{
-        identifier:node.name
-    }
-})
+                         node:node,
+                           message:`dont use "payment 1" comment {{identifier}}`,
+                           data:{
+                                identifier:node.name
+                            } 
+                        })
         
                    }
                  }
