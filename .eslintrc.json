@@ -16,12 +16,14 @@
             "ecmaVersion": "latest",
             "sourceType": "module"
         },
-    "rules": {
-        // adding rules from eslint documentation 
+                // adding rules from eslint documentation 
         // link = https://eslint.org/docs/latest/rules/
         // 
-        "identifier":"warn",
-        "comments":["warn"],
+    "rules": {
+
+        "acceptArguments":["warn","double","hyyy"],
+        "comments":["error"],
+        "identifier":["warn"],
         "consistent-return":["warn"],
         "indent": [
             "warn",
