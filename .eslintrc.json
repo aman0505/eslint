@@ -20,7 +20,6 @@
         // link = https://eslint.org/docs/latest/rules/
         // 
     "rules": {
-
         "acceptArguments":["warn","double","hyyy"],
         "comments":["error"],
         "identifier":["warn"],
