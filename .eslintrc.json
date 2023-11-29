@@ -19,8 +19,10 @@
                 // adding rules from eslint documentation 
         // link = https://eslint.org/docs/latest/rules/
         // 
+        "plugins":["promise"],
     "rules": {
         "acceptArguments":["warn","double","hyyy"],
+        "promise/catch-or-return": "error",
         "comments":["error"],
         "identifier":["warn"],
         "consistent-return":["warn"],

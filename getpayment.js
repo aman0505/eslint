@@ -1,9 +1,8 @@
-const getpayment=()=>{
+const getpayment1=()=>{
     return false;
     // this is getpayment files 
-    // payment 1
     // payment 2
     // payment 3
 
 }
-getpayment();
+getpayment1();
