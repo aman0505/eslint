@@ -7,7 +7,7 @@ module.exports={
 
     //     },
     //     fixable:"code",
-    //     schema:[]
+    //     schema:{}
     // },
 
     create(context){

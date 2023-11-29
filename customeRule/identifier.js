@@ -13,12 +13,18 @@ module.exports={
     create(context){
         return {
             CallExpression(node){
-                if(node.callee.name==="getpayment"){
+                if(node.callee.name=="getpayment"){
                     context. report({
                         node:node,
-                        message:"getpayment is deprected: {{ identifier }}",
+                        message:"getpayment is deprected: use getlatestPayment",
                         data:{
                              identifier:node.name 
+                        },
+                        fix:function(fixer){
+                                //   console.log(node.callee);
+                                //   console.log(node.callee.name=="getpayment");
+                            return fixer.replaceText(node.callee,"getLatestPayment");
+                        
                         }
                     })
                 }

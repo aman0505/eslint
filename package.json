@@ -2,7 +2,11 @@
   "name": "js",
   "version": "1.0.0",
   "main": "main.js",
+<<<<<<< HEAD
   "tyep":"module",
+=======
+  "tyep": "module",
+>>>>>>> devlop
   "dependencies": {
     "-": "^0.0.1",
     "acorn": "^8.11.2",
@@ -101,6 +105,7 @@
   "license": "ISC",
   "devDependencies": {
     "eslint": "^8.54.0",
+    "eslint-plugin-promise": "^6.1.1",
     "nodemon": "^3.0.1"
   },
   "repository": {
